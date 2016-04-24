@@ -1,0 +1,16 @@
+{
+	"ImportPath": "toolhouse.com/flickr-service",
+	"GoVersion": "go1.6",
+	"GodepVersion": "v62",
+	"Deps": [
+		{
+			"ImportPath": "github.com/azer/go-flickr",
+			"Rev": "37cfbea4d4ef2c9d6888d81498a0d8143322e048"
+		},
+		{
+			"ImportPath": "github.com/kelseyhightower/envconfig",
+			"Comment": "1.1.0-15-gcea0863",
+			"Rev": "cea086319492c3940683ea5e122aa5de70a33923"
+		}
+	]
+}
