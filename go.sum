@@ -1,0 +1,4 @@
+github.com/azer/go-flickr v0.0.0-20160403102945-37cfbea4d4ef h1:9A9WOdoZK+KxX7LPmBn6aqpjxekad+Jaqf0BoadUeqw=
+github.com/azer/go-flickr v0.0.0-20160403102945-37cfbea4d4ef/go.mod h1:00/hvBxyxJgFznYmEV7S7GW9K3Q4vpClmLsy8hruXzQ=
+github.com/kelseyhightower/envconfig v1.1.1-0.20160316193706-cea086319492 h1:AMFabnVyRl/OuTlbG17seRrxN9QZoqkQvtJVdEj5kNg=
+github.com/kelseyhightower/envconfig v1.1.1-0.20160316193706-cea086319492/go.mod h1:cccZRl6mQpaq41TPp5QxidR+Sa3axMbJDNb//FQX6Gg=
