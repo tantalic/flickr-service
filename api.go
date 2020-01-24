@@ -27,12 +27,12 @@ type Photo struct {
 	Large  string `json:"large"`
 }
 
-func StartApiServer(c config) {
+func StartApiServer(c config) error {
 	http.HandleFunc("/", apiHandler)
 
 	addr := fmt.Sprintf("%s:%d", c.Host, c.Port)
 	log.Printf("Listening on %s\n", addr)
-	http.ListenAndServe(addr, nil)
+	return http.ListenAndServe(addr, nil)
 }
 
 func apiHandler(w http.ResponseWriter, r *http.Request) {

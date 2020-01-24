@@ -30,7 +30,8 @@ func main() {
 	}
 
 	StartUpdatingPhotos(c)
-	StartApiServer(c)
+	err = StartApiServer(c)
+	fmt.Fprintf(os.Stderr, "Error starting http server: %s\n", err)
 }
 
 func getConfig() (config, error) {
