@@ -30,4 +30,5 @@ COPY --from=builder /src/flickr-service /usr/local/bin/flickr-service
 # ENV REFRESH_INTERVAL
 
 EXPOSE 3000
+USER nobody
 CMD /usr/local/bin/flickr-service
